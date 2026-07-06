@@ -202,7 +202,7 @@ const JourneyTimePanel = ({ routeId }: JourneyTimePanelProps) => {
       <Box
         overflow="auto"
         flex={1}
-        sx={{ paddingBottom: "max(env(safe-area-inset-bottom), 48px)" }}
+        sx={{ paddingBottom: "env(safe-area-inset-bottom)" }}
       >
         <Stepper orientation="vertical">
           {stops.map((stop, idx) => (
